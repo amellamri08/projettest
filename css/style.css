@@ -1,0 +1,25 @@
+h1{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.model{
+   width: min-content;
+}
+body{
+    background: linear-gradient(to right,#373B44,#4286f4);
+}
+.lasagne{
+    background: linear-gradient(#FFEFBA,#FFFFFF);
+}
+header{
+
+    text-align: center;
+}
+#plat{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+

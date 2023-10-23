@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title  >Restaurant La Pasta</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body background="fond.jpg">
+    <header id="haut">
+        <img src="./img/fond.jpg" alt="image menu" width="1500" height="400">
+
+        <h1  >Restaurant La Pasta</h1>
+    </header>
+
+    <main>
+        <h2>Faites votre choix :</h2>
+
+        <div>
+
+            <table>
+                <tr>
+                    <td><img src="./img/pates.jpg" alt="blanche" width="300" height="300"></td>
+                    <td><img src="./img/saucejpg.jpg" alt="sauce" width="300" height="300"></td>
+                    <td><img src="./img/thon.jpg" alt="thon" width="300" height="300"></td>
+                    <td><img src="./img/bon.jpg" alt="bon" width="300" height="300"></td>
+                    <td><img src="./img/lasagne.jpg" alt="bon" width="300" height="300"></td>
+
+                </tr>
+                <tr id="plat">
+                    <td><input type="checkbox">plat creme champignon</td>
+                    <td><input type="checkbox">pates sauce rouge</td>
+                    <td><input type="checkbox">pates au thon</td>
+                    <td><input type="checkbox">pates aux légumes</td>
+                    <td><input type="checkbox"><a href="lasagne.html" </a> Lasagne</td>
+                </tr>
+
+
+            </table>
+        </div>
+
+
+
+        <div class="model" >
+            <form>
+                <fieldset >
+                    <legend >Ajouter un plat</legend>
+                    <select>
+                        <option>Méditerranéen</option>
+                        <option>Asiatique</option>
+
+                    </select>
+
+                    <input type="text" placeholder="Nom" maxlength="10">
+
+                    <label>
+                        Dessert
+                        <input type="radio" name="Menu">
+                    </label>
+                    <label>
+                        Plat principal
+                        <input type="radio" checked name="Menu">
+                    </label>
+
+                    <input type="button" value="Enregistrer">
+                </fieldset>
+
+            </form>
+        </div>
+
+        <a href="#haut">Retour en haut de la page</a>
+    </main>
+
+    <footer>
+        <p>
+            &copy; Auteur : Amel
+        </p>
+    </footer>
+<script src="./js/script.js"></script>
+</body>
+
+</html>
